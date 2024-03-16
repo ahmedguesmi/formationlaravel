@@ -51,6 +51,20 @@
                 <textarea class="form-control" style="height:150px" name="long_description" placeholder="long_description"></textarea>
             </div>
         </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>Categories</strong>
+                <div>
+                    <input type="checkbox" id="scales" name="scales" checked />
+                    <label for="scales">Scales</label>
+                  </div>
+                
+                  <div>
+                    <input type="checkbox" id="horns" name="horns" />
+                    <label for="horns">Horns</label>
+                  </div>
+            </div>
+        </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                 <button type="submit" class="btn btn-primary">Submit</button>
         </div>
