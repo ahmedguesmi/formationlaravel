@@ -33,9 +33,9 @@ class ProductController extends Controller
     public function store(Request $request) : RedirectResponse
     {
         $request->validate([
-            'name'=>'required',
+            'name'=>'required|string|regex:/^[^\d]+$/u',
             'short_description'=>'required',
-            
+            'price'=>'required|numeric',
             'long_description'=>'required',
         ]);
 
